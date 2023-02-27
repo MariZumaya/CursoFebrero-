@@ -13,6 +13,8 @@
 		DC441893299C203E0016A017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC441891299C203E0016A017 /* Main.storyboard */; };
 		DC441895299C20430016A017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC441894299C20430016A017 /* Assets.xcassets */; };
 		DC441898299C20430016A017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC441896299C20430016A017 /* LaunchScreen.storyboard */; };
+		DCE3D39529AD3D31007893F5 /* TableViewControllerTienda.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D39429AD3D31007893F5 /* TableViewControllerTienda.swift */; };
+		DCE3D39729AD3E27007893F5 /* TableViewCellProductos.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE3D39629AD3E27007893F5 /* TableViewCellProductos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DC441894299C20430016A017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC441897299C20430016A017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC441899299C20430016A017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE3D39429AD3D31007893F5 /* TableViewControllerTienda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerTienda.swift; sourceTree = "<group>"; };
+		DCE3D39629AD3E27007893F5 /* TableViewCellProductos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellProductos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				DC44188D299C203E0016A017 /* SceneDelegate.swift */,
 				DC44188F299C203E0016A017 /* ViewController.swift */,
 				DC441891299C203E0016A017 /* Main.storyboard */,
+				DCE3D39429AD3D31007893F5 /* TableViewControllerTienda.swift */,
+				DCE3D39629AD3E27007893F5 /* TableViewCellProductos.swift */,
 				DC441894299C20430016A017 /* Assets.xcassets */,
 				DC441896299C20430016A017 /* LaunchScreen.storyboard */,
 				DC441899299C20430016A017 /* Info.plist */,
@@ -140,7 +146,9 @@
 			files = (
 				DC441890299C203E0016A017 /* ViewController.swift in Sources */,
 				DC44188C299C203E0016A017 /* AppDelegate.swift in Sources */,
+				DCE3D39529AD3D31007893F5 /* TableViewControllerTienda.swift in Sources */,
 				DC44188E299C203E0016A017 /* SceneDelegate.swift in Sources */,
+				DCE3D39729AD3E27007893F5 /* TableViewCellProductos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
