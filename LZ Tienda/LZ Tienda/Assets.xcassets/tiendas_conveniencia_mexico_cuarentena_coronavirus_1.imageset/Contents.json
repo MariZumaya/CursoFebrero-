@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "tiendas_conveniencia_mexico_cuarentena_coronavirus_1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

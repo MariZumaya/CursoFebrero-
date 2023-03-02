@@ -18,8 +18,11 @@ struct Tienda{
 
 class TableViewControllerTienda: UITableViewController {
     var arregloTienda:[Tienda]=[
-    Tienda(foto: UIImage(named: "cervezas")!, marca: "Victoria", producto:("Cerveza") , precio: "$20", cantidad: "1"),
-    Tienda(foto: UIImage(named: "Botanas")!, marca: "Sabritas", producto: "papas", precio: "16", cantidad: "1"),
+    Tienda(foto: UIImage(named: "cervezas")!, marca: "Victoria", producto:("Cerveza") , precio: "$20", cantidad: "1pz"),
+    Tienda(foto: UIImage(named: "Botanas")!, marca: "Sabritas", producto: "papas", precio: "$16", cantidad: "1pz"),
+    Tienda(foto: UIImage(named: "Frutas")!, marca: "/", producto: "Manzana", precio: "$45", cantidad: "1k"),
+    Tienda(foto: UIImage(named:"Pan y galletas")!, marca: "Bimbo", producto: "Panquè de Nuez", precio: "$38", cantidad: "1pz"),
+    
 
     ]
 
@@ -45,23 +48,31 @@ class TableViewControllerTienda: UITableViewController {
         return arregloTienda.count
     }
 
-    /*
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "celdita", for: indexPath) as!TableViewCellProductos
+        let celdaReciclada=arregloTienda[indexPath.row]
+        
+        cell.imgProducto.image=celdaReciclada.foto
+        cell.lblPrecio.text=celdaReciclada.precio
+        cell.IblMarca.text=celdaReciclada.marca
+        cell.lblProducto.text=celdaReciclada.producto
+        cell.lblCantidad.text=celdaReciclada.cantidad
 
         // Configure the cell...
 
         return cell
     }
-    */
+    
+     
 
-    /*
+    
     // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 200
+        
     }
-    */
 
     /*
     // Override to support editing the table view.
